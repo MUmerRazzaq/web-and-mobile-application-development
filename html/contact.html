@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" required></textarea><br /><br />
+      <label for="time">Schedule Time:</label>
+      <input type="datetime-local" id="time" name="time" required /><br /><br />
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option></select
+      ><br /><br />
+      <label for="file">Upload File:</label>
+      <input type="file" id="file" name="file" required /><br /><br />
+      <label for="language">Language:</label>
+      <input
+        list="languages"
+        id="language"
+        name="language"
+        placeholder="Choose a language"
+        required
+        type="option"
+      />
+      <datalist id="languages">
+        <option value="English">English</option>
+        <option value="Spanish">Spanish</option>
+        <option value="French">French</option>
+        <option value="German">German</option>
+        <option value="Chinese">Chinese</option>
+      </datalist>
+      <br /><br />
+      <label for="contact_method">Preferred Contact Method:</label>
+      <input
+        type="radio"
+        id="contact_method_email"
+        name="contact_method"
+        value="email"
+        required
+      />
+      <label for="contact_method_email">Email</label>
+      <input
+        type="radio"
+        id="contact_method_phone"
+        name="contact_method"
+        value="phone"
+        required
+      />
+      <label for="contact_method_phone">Phone</label>
+      <input
+        type="radio"
+        id="contact_method_chat"
+        name="contact_method"
+        value="chat"
+        required
+      />
+      <label for="contact_method_chat">Chat</label> <br /><br />
+      <label for="checkbox">Agree to Terms and Conditions:</label>
+      <input
+        aria-required="true"
+        type="checkbox"
+        id="checkbox"
+        name="checkbox"
+        required
+      /><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+    <br /><br />
+
+    <iframe src="https://example.com/" frameborder="0"> </iframe>
+    <footer>
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+    <a href="index.html">Back to Home</a>
+  </body>
+</html>

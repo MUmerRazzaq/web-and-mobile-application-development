@@ -1,0 +1,29 @@
+.box1 {
+  position: fixed;
+  background-color: lightblue;
+  width: 200px;
+  height: 100px;
+  bottom: 10px;
+  /* top: 20px;
+  left: 20px; */
+}
+.box2 {
+  position: relative;
+  background-color: lightgreen;
+  width: 200px;
+  height: 100px;
+  top: -50px;
+  left: 500px;
+}
+.box3 {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  background-color: lightcoral;
+  /* top: 150px; */
+  left: 150px;
+  float: right;
+}
+.box1:hover {
+  background-color: deepskyblue;
+}

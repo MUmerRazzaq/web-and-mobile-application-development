@@ -1,0 +1,57 @@
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+
+#myButton {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#myButton:hover {
+  background-color: darkgreen;
+}
+
+#myForm {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 20%;
+  margin-bottom: 10px;
+  display: block;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 3px;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: blue;
+  outline: none;
+  width: 21%;
+}
+
+.output {
+  display: none;
+  font-family: monospace;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 25%;
+  color: #b71919;
+}
